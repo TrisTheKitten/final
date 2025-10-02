@@ -1,5 +1,7 @@
 ## Stock Management System (Next.js + MongoDB)
 
+## Test Here : https://minmyintmohsoe.centralindia.cloudapp.azure.com/fin-customer
+
 A small inventory and customer management app built with Next.js (App Router) and MongoDB/Mongoose. It demonstrates full CRUD for products, categories, and customers, with a Material UI-based interface and RESTful API routes.
 
 ### Tech Stack
