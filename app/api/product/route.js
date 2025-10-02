@@ -12,10 +12,7 @@ export async function POST(request) {
   try {
     const body = await request.json();
     const data = { ...body };
-
-    if (data._id === '' || data._id === null || data._id === undefined || (typeof data._id === 'string' && data._id.trim() === '')) {
-      delete data._id;
-    }
+    delete data._id;
 
     if (data.price !== undefined && data.price !== null && data.price !== '') {
       data.price = Number(data.price);
